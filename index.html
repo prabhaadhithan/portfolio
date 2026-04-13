@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GlowCare Skin Boutique</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="logo">GlowCare</a>
+      <nav class="nav-links">
+        <a href="#products">Products</a>
+        <a href="#benefits">Benefits</a>
+        <a href="#testimonials">Testimonials</a>
+        <button class="cart-btn" id="open-cart">Cart (<span id="cart-count">0</span>)</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <div>
+          <p class="eyebrow">Natural skincare for every glow</p>
+          <h1>Healthy skin starts with clean, cruelty-free care.</h1>
+          <p>Explore a curated collection of serums, moisturizers, and masks designed for radiant, balanced skin.</p>
+          <div class="hero-actions">
+            <a href="#products" class="btn primary">Shop Best Sellers</a>
+            <a href="#benefits" class="btn secondary">Learn More</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="hero-card">
+            <span>New</span>
+            <h2>Calming Rose Serum</h2>
+            <p>Hydration, glow, and redness relief in one clean formula.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-intro" id="products">
+      <div class="container">
+        <p class="eyebrow">Featured Collection</p>
+        <h2>Shop skincare favorites</h2>
+        <p>Explore our most-loved formulas for hydration, glow, and evening texture.</p>
+      </div>
+    </section>
+
+    <section class="product-grid container">
+      <article class="product-card" data-name="Radiant Cleanser" data-price="24">
+        <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=700&q=80" alt="Radiant Cleanser" />
+        <div class="product-details">
+          <h3>Radiant Cleanser</h3>
+          <p>Gentle gel cleanser with chamomile and vitamin E for soft, glowing skin.</p>
+          <div class="product-meta">
+            <span>$24</span>
+            <button class="btn add-to-cart">Add to cart</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card" data-name="Hydra Glow Serum" data-price="38">
+        <img src="https://images.unsplash.com/photo-1490312917534-9ecc841e6dec?auto=format&fit=crop&w=700&q=80" alt="Hydra Glow Serum" />
+        <div class="product-details">
+          <h3>Hydra Glow Serum</h3>
+          <p>A potent blend of hyaluronic acid and vitamin C for instant radiance.</p>
+          <div class="product-meta">
+            <span>$38</span>
+            <button class="btn add-to-cart">Add to cart</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card" data-name="Nourish Night Cream" data-price="46">
+        <img src="https://images.unsplash.com/photo-1516762689617-8b6b6e72d45c?auto=format&fit=crop&w=700&q=80" alt="Nourish Night Cream" />
+        <div class="product-details">
+          <h3>Nourish Night Cream</h3>
+          <p>Deep moisturization with squalane and botanical oils for overnight renewal.</p>
+          <div class="product-meta">
+            <span>$46</span>
+            <button class="btn add-to-cart">Add to cart</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card" data-name="Brightening Face Mask" data-price="32">
+        <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=700&q=80" alt="Brightening Face Mask" />
+        <div class="product-details">
+          <h3>Brightening Face Mask</h3>
+          <p>Detoxifying clay mask with botanical extracts for luminous texture.</p>
+          <div class="product-meta">
+            <span>$32</span>
+            <button class="btn add-to-cart">Add to cart</button>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="benefits section-alt" id="benefits">
+      <div class="container benefits-grid">
+        <div>
+          <p class="eyebrow">Why GlowCare?</p>
+          <h2>Clean ingredients, thoughtful formulas, radiant results.</h2>
+          <p>Every product is vegan-friendly, dermatologist-tested, and crafted for sensitive skin. Enjoy skincare that feels luxurious and performs beautifully.</p>
+        </div>
+        <div class="benefit-list">
+          <div class="benefit-item">
+            <h3>Clean ingredients</h3>
+            <p>No parabens, fragrances, or sulfates.</p>
+          </div>
+          <div class="benefit-item">
+            <h3>Fast shipping</h3>
+            <p>Free delivery on orders over $75.</p>
+          </div>
+          <div class="benefit-item">
+            <h3>Easy returns</h3>
+            <p>30-day satisfaction guarantee.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials container" id="testimonials">
+      <p class="eyebrow">Customer love</p>
+      <h2>Real results from happy skin.</h2>
+      <div class="testimonial-grid">
+        <blockquote>
+          "My skin feels calm and hydrated after just one week. The serum is now a part of my daily routine."
+          <footer>— Maya K.</footer>
+        </blockquote>
+        <blockquote>
+          "The packaging is beautiful, and the products are gentle enough for my sensitive skin. Highly recommend."
+          <footer>— Liam S.</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="newsletter section-alt">
+      <div class="container newsletter-inner">
+        <div>
+          <p class="eyebrow">Stay glowing</p>
+          <h2>Join our beauty community.</h2>
+          <p>Subscribe for exclusive offers, new product drops, and skincare tips.</p>
+        </div>
+        <form id="newsletter-form">
+          <input type="email" placeholder="Enter your email" aria-label="Email address" required />
+          <button type="submit" class="btn primary">Subscribe</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>GlowCare Skin Boutique © 2026 · Clean beauty for every skin type.</p>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#benefits">Benefits</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="cart-modal" id="cart-modal" aria-hidden="true">
+    <div class="cart-panel">
+      <button class="close-cart" id="close-cart">×</button>
+      <h2>Your cart</h2>
+      <div id="cart-items" class="cart-items"></div>
+      <div class="cart-summary">
+        <span>Total</span>
+        <strong id="cart-total">$0.00</strong>
+      </div>
+      <button class="btn primary checkout-btn">Checkout</button>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
